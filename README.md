@@ -3,7 +3,7 @@
 Exercises/Projects Solutions:
 ---
 
-##1. HTML5:
+## 1. HTML5:
 * [HTML Lists](https://balakrishnaidu.github.io/Web-Develpment-Bootcamp/HTML5/HTML-lists.html)
 * [Basic Webpage](https://balakrishnaidu.github.io/Web-Develpment-Bootcamp/HTML5/rusty.html)
 * [HTML Tables](https://balakrishnaidu.github.io/Web-Develpment-Bootcamp/HTML5/pokemon.html)
