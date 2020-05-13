@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Forms Exercise</title>
+</head>
+<body>
+	<h1>Register</h1>
+
+	<form>
+		<div>
+			<!-- First Name -->
+			<label for="firstname">First Name:</label>
+			<input type="text" id="firstname" placeholder="John" name="firstname" required>
+			<!-- Last name -->
+			<label for="lastname">Last Name:</label>
+			<input type="text" id="lastname" placeholder="Smith" name = "lastname" required>
+		</div>
+		<div>
+			<!-- Gender -->
+			<label for="gender-male">Male</label>
+			<input type="radio" id="gender-male" name="gender" value="Male">
+
+			<label for="gender-female">Female</label>
+			<input type="radio" id="gender-female" name="gender" value="Female">
+
+			<label for="gender-others">Others</label>
+			<input type="radio" id="gender-others" name="gender" value="Others">
+		</div>
+		<div>
+			<!-- Email -->
+			<label for="Email">Email:</label>
+			<input type="Email" id="Email" placeholder="Your Email" name="Email" required>
+
+			<!-- password -->
+			<label for="Password">Password:</label>
+			<input type="password" id="Password" placeholder="Your Password" name="Password" pattern=".{5,10}" title="5 to 10 characters" required>
+			
+			<!--Alternate way! minlength and maxlength are not compatible in all browsers 
+			<label>
+				Email:
+				<input type="Email" placeholder="Your Email" name="Email" required>
+			</label>			
+
+			<label>
+				Password:
+				<input type="password" placeholder="Your Password" name="Password" minlength="5" maxlength="10" required>
+			</label>
+			 -->
+		</div>
+		<div>
+			<!-- Birthday - Month, Day and Year -->
+			<label>Birthday:</label>
+			<!-- Month -->
+			<label for="month">
+				<select id="month" name="Month" required>
+					<option value="">Month</option>
+					<option value="Jan">Jan</option>
+					<option value="Feb">Feb</option>
+					<option value="Mar">Mar</option>
+					<option value="Apr">Apr</option>
+					<option value="May">May</option>
+					<option value="Jun">Jun</option>
+					<option value="Jul">Jul</option>
+					<option value="Aug">Aug</option>
+					<option value="Sep">Sep</option>
+					<option value="Oct">Oct</option>
+					<option value="Nov">Nov</option>
+					<option value="Dec">Dec</option>
+				</select>
+			</label>
+			
+
+			<!-- Day -->
+			<label for="day">
+				<select id="day" name="Day" required>
+					<option value="">Day</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+					<option value="13">13</option>
+					<option value="14">14</option>
+					<option value="15">15</option>
+					<option value="16">16</option>
+					<option value="17">17</option>
+					<option value="18">18</option>
+					<option value="19">19</option>
+					<option value="20">20</option>
+					<option value="21">21</option>
+					<option value="22">22</option>
+					<option value="23">23</option>
+					<option value="24">24</option>
+					<option value="25">25</option>
+					<option value="26">26</option>
+					<option value="27">27</option>
+					<option value="28">28</option>
+					<option value="29">29</option>
+					<option value="30">30</option>
+					<option value="31">31</option>
+				</select>			
+			</label>
+			
+			<!-- Year -->
+			<label for="year">
+				<select id="year" name="Year" required>
+					<option value="">Year</option>
+					<option value="2015">2015</option>
+					<option value="2016">2016</option>
+					<option value="2017">2017</option>
+					<option value="2018">2018</option>
+					<option value="2019">2019</option>
+					<option value="2020">2020</option>
+					<option value="2021">2021</option>
+					<option value="2022">2022</option>
+					<option value="2023">2023</option>
+					<option value="2024">2024</option>
+					<option value="2025">2025</option>
+					<option value="2026">2026</option>
+				</select>
+			</label>
+			
+		</div>
+		<div>
+			<!-- Terms and Conditions -->
+			<label for="checkbox">I agree to the terms and conditions</label>
+			<input type="checkbox" name="checkbox" id="checkbox" required>
+		</div>
+		<div>
+			<button>Submit</button>
+		</div>		
+	</form>
+
+</body>
+</html>
+
+
+<!-- minlength="4" maxlength="8" -->
