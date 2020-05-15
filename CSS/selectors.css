@@ -18,7 +18,7 @@ h2 {
 
 /* Make all <li> elements blue(pick your own hexadecimal blue)*/
 li {
-  color: #00F;
+  color: #00f;
 }
 
 /*Change the background on every paragraph to be yellow*/
@@ -33,7 +33,7 @@ input {
 
 /* Give everything with the class 'hello' a white background*/
 .hello {
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 /* Give the element with id 'special' a 2px solid blue border(pick your own rgb blue)*/
@@ -47,7 +47,7 @@ div p {
 }
 
 /*Make only inputs with type 'text' have a gray background*/
-input[type=text] {
+input[type="text"] {
   background-color: gray;
 }
 
