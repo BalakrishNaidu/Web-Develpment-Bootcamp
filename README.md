@@ -9,4 +9,5 @@ Exercises/Projects Solutions:
 * [HTML Tables](https://balakrishnaidu.github.io/Web-Develpment-Bootcamp/HTML5/pokemon.html)
 * [HTML Forms](https://balakrishnaidu.github.io/Web-Develpment-Bootcamp/HTML5/forms-exercise.html)
 	
-
+## 2. CSS:
+* [CSS Selectorss](https://balakrishnaidu.github.io/Web-Develpment-Bootcamp/CSS/selectorsExercise.html)
