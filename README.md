@@ -12,4 +12,5 @@
 ## 2. CSS
 
 - [CSS Selectors](https://balakrishnaidu.github.io/Web-Develpment-Bootcamp/CSS/selectorsExercise.html)
-- [Tic Tac Toe board](https://balakrishnaidu.github.io/Web-Develpment-Bootcamp/CSS/TicTacToe.html)
+- [Tic Tac Toe board exercise](https://balakrishnaidu.github.io/Web-Develpment-Bootcamp/CSS/TicTacToe.html)
+- [Photo Grid exercise](https://balakrishnaidu.github.io/Web-Develpment-Bootcamp/CSS/photo-grid.html)
